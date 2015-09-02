@@ -2,7 +2,7 @@
 Library for fetching quotes from NSE/BSE, the Indian stock exchanges
 
 # Using quotelib
-'''python
+'''
 from quotelib import icici
 md = icici.get_market_depth(sym)
 q = icici.get_quote(sym)
