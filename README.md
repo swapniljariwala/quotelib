@@ -1,6 +1,7 @@
 # quotelib
-Library for fetching quotes from NSE/BSE, the Indian stock exchanges
-
+Library for fetching quotes from NSE/BSE, the Indian stock exchanges.
+Currently i've added ICICI and will keep adding more data sources
+ICICI is near real time (tested upto frequency of 6 ticks per minutes)
 # Using quotelib
 ```python
 from quotelib import icici
