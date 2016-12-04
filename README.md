@@ -5,7 +5,9 @@ ICICI is near real time (tested upto frequency of 6 ticks per minutes)
 # Using quotelib
 ```python
 from quotelib import icici
-md = icici.get_market_depth('STABNA') # ICICI's stock codes are different from NSE
+# Get market depth
+md = icici.get_market_depth('STABAN') # ICICI's stock codes are different from NSE
+# Get stock quote
 q = icici.get_quote('STABAN')
 print q[0]
 print q[0].price
